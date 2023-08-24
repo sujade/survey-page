@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta-charset="utf-8">
+  </head>
+
+  <body>
+    <h1 id="title">Short Survey for Totally Real Humans</h1>
+    <p id="description">We wanna know more about you, and your hands containing five digits each!<u> <br>This form won't be used to detect actual humans in order to exterminate them.</u></p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label for="name-label" id="name-label"><strike>Model Number</strike> Name: <input class="wide" placeholder="Your name here..." id="name" type="text" required /> </label>    
+        <label for="email-label" id="email-label">Email: <input class="wide" placeholder="myname@provider.com" id="email" type="email" required /></label>
+        <label for="number-label" id="number-label"><strike>Assembly Year </strike>Age: <input class="wide" placeholder="You're not 3, are you?" id="number" type="number" min="18" max="120" required /></label>
+      </fieldset>
+
+      <fieldset>
+        <label>What makes you human?
+          <select id="dropdown" class="wide">
+            <option value="">(Select One)</option>
+            <option value="1">I can answer CAPTCHA</option>
+            <option value="2">I can find traffic lamps</option>
+            <option value="3">I can find bicycles</option>
+            <option value="4">I have <em>emotions</em></option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>What do you eat and drink?</label>
+        <label for="energy"><input value="1" type="radio" name="food" id="energy" required class="inline"/> Pure energy</label>
+        <label for="uh-food"><input value="3" type="radio" name="food" id="uh-food" required class="inline"/>
+Uh, food?</label>
+        <label for="batteries"><input value="3" type="radio" name="food" id="batteries" required class="inline"/>
+Batteries</label>
+        <label for="truthful"><input type="checkbox" required value="1" /> I'm truthful about my diet.</label>
+        <label for="meanit"><input type="checkbox" required value="2" /> I mean it</label>
+      </fieldset>
+
+      <fieldset>
+        <label for="textarea">Anything else to add? <textarea id="textarea" name="textarea" class="wide" rows="3" cols="30" placeholder="I used to be a Yellow Submarine, then I took an arrow in the knee." ></textarea>
+        </label>
+      </fieldset>
+
+      <input id=submit type="submit" value="Submit"/>
+    </form>
+    </body>
+</html>

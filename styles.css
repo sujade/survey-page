@@ -1,0 +1,60 @@
+body {
+    margin: 2em;
+    padding: 2em;
+    background-color: #4f6182;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border: 5px solid black;
+  }
+  
+  h1, p {
+    text-align: center;
+    margin: 1em auto;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    border-bottom: 2px solid #1e2124;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  label {
+    display: block;
+    margin: 10px;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 5px;
+  }
+  
+  .wide {
+   width: 100%;
+  }
+  
+  input[type="submit"] {
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  fieldset:last-of-type {
+    border: none;
+  }
+  
+  
